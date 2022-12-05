@@ -54,3 +54,8 @@ OCE:HasLab a rdf:Property ;
     rdfs:label "HasLab" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+OCE:HasDomain a rdf:Property ;
+    rdfs:label "HasDomain" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .

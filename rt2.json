@@ -1,6 +1,17 @@
 {
-    "o:label": "Publication",
+    "o:label": "Laboratoire",
     "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/chercheur.univ-paris8.fr\/onto\/OCE#",
+            "vocabulary_label": "Ontology Chercheur Examen",
+            "local_name": "HasUniversity",
+            "label": "HasUniversity"
+        },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
@@ -20,14 +31,14 @@
             "data_types": [],
             "vocabulary_namespace_uri": "https:\/\/chercheur.univ-paris8.fr\/onto\/OCE#",
             "vocabulary_label": "Ontology Chercheur Examen",
-            "local_name": "PublishedAt",
-            "label": "PublishedAt"
+            "local_name": "HasAdress",
+            "label": "HasAdress"
         }
     ],
     "o:resource_class": {
         "vocabulary_namespace_uri": "https:\/\/chercheur.univ-paris8.fr\/onto\/OCE#",
         "vocabulary_label": "Ontology Chercheur Examen",
-        "local_name": "Publication",
-        "label": "Publication"
+        "local_name": "Laboratoire",
+        "label": "Laboratoire"
     }
 }

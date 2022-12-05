@@ -1,17 +1,6 @@
 {
-    "o:label": "Laboratoire",
+    "o:label": "Publication",
     "o:resource_template_property": [
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "https:\/\/chercheur.univ-paris8.fr\/onto\/OCE#",
-            "vocabulary_label": "Ontology Chercheur Examen",
-            "local_name": "HasUniversity",
-            "label": "HasUniversity"
-        },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
@@ -22,12 +11,34 @@
             "vocabulary_label": "Ontology Chercheur Examen",
             "local_name": "HasName",
             "label": "HasName"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/chercheur.univ-paris8.fr\/onto\/OCE#",
+            "vocabulary_label": "Ontology Chercheur Examen",
+            "local_name": "PublishedAt",
+            "label": "PublishedAt"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/chercheur.univ-paris8.fr\/onto\/OCE#",
+            "vocabulary_label": "Ontology Chercheur Examen",
+            "local_name": "HasDomain",
+            "label": "HasDomain"
         }
     ],
     "o:resource_class": {
         "vocabulary_namespace_uri": "https:\/\/chercheur.univ-paris8.fr\/onto\/OCE#",
         "vocabulary_label": "Ontology Chercheur Examen",
-        "local_name": "Laboratoire",
-        "label": "Laboratoire"
+        "local_name": "Publication",
+        "label": "Publication"
     }
 }
