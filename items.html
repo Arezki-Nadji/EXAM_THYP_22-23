@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Items</title>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+    </head>
+    <body>
+        <script>
+            d3.json("items.json",function(data){
+    
+            var canvas = d3.select("body")
+    
+            canvas.selectAll("p")
+                    .data(data)
+                    .enter()
+                        .append("p")
+                        .attr("width",50)
+                        .attr("height",50)
+                        .attr("class","")
+                        .text(function(d,i) { 
+                            if(d["@type"][1]==="OCE:Laboratoire") 
+                        {
+                        return `Laboratoire id: ${d["o:id"]} , le titre: ${d["OCE:HasName"][0]["@value"]}`;
+                        }
+                        if(d["@type"][1]==="OCE:Chercheur") 
+                        {
+                            return `Chercheur id: ${d["o:id"]} , le titre: ${d["OCE:HasName"][0]["@value"]}`;
+   
+                        }
+                        if(d["@type"][1]=="OCE:Universite")
+                        {
+                            return `Univeersite id: ${d["o:id"]} , le titre: ${d["OCE:HasName"][0]["@value"]}`;
+                        }
+                        })
+        });
+            </script>
+    </body>
+</html>
